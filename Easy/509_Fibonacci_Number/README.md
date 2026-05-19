@@ -10,16 +10,4 @@ The Fibonacci numbers are defined as follows:
 
 Given an integer `n`, return `F(n)`.
 
-├── fib(3)
-│   ├── fib(2)
-│   │   ├── fib(1) = 1
-│   │   └── fib(0) = 0
-│   │   => fib(2) = 1
-│   └── fib(1) = 1
-│   => fib(3) = 2
-└── fib(2)
-    ├── fib(1) = 1
-    └── fib(0) = 0
-    => fib(2) = 1
 
-fib(4) = 2 + 1 = 3
