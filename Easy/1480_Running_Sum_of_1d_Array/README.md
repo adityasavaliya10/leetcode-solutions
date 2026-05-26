@@ -1,28 +1,46 @@
-# LeetCode Solutions
+# 1480. Running Sum of 1d Array
 
-This repository contains my LeetCode problem solutions written in Python.
+## Problem
+Given an array `nums`, return the running sum of `nums`.
 
-I am solving problems daily to improve:
-- Problem-solving skills
-- Python programming
-- Data Structures & Algorithms (DSA)
+### Example
+Input:
+```python
+[1,2,3,4]
+```
+
+Output:
+```python
+[1,3,6,10]
+```
+
+Explanation:
+- 1
+- 1 + 2 = 3
+- 1 + 2 + 3 = 6
+- 1 + 2 + 3 + 4 = 10
 
 ---
 
-# Solved Problems
 
-| Problem No. | Problem Name | Difficulty | Solution |
-|------------|--------------|------------|----------|
-| 1480 | Running Sum of 1d Array | Easy | [View Solution](Easy/1480_Running_Sum_of_1d_Array.py) |
+# Approach
+
+- Create an empty list `ans`
+- Use variable `a` to store the running sum
+- Traverse through `nums`
+- Add each number to `a`
+- Append updated sum into `ans`
+- Return `ans`
 
 ---
 
-# Language Used
-- Python
+# Complexity Analysis
+
+- Time Complexity: `O(n)`
+- Space Complexity: `O(n)`
 
 ---
 
-# Goal
-- Solve LeetCode problems consistently
-- Strengthen coding fundamentals
-- Prepare for software engineering and AI development
+# LeetCode Link
+
+https://leetcode.com/problems/running-sum-of-1d-array/
